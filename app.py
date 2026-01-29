@@ -140,3 +140,17 @@ if all(
     ]
 ):
     st.header("🎉 カスタムサラダ完成！")
+
+# リセットボタン
+st.divider()
+if st.button("🔄 リセット"):
+    for key in [
+        "selected_base",
+        "selected_toppings",
+        "selected_premium",
+        "selected_dressing",
+        "selected_condiment",
+    ]:
+        if key in st.session_state:
+            del st.session_state[key]
+    st.rerun()
