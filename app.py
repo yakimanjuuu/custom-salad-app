@@ -61,7 +61,7 @@ if "selected_toppings" in st.session_state:
 # プレミアムメニュー
 premium_items = [
     "春野菜ミックス",
-    "ローストトマト"
+    "ローストトマト",
     "アボカド（1/4）",
     "トマト×２",
     "チェダーチーズ",
