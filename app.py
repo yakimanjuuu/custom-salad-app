@@ -26,7 +26,7 @@ if "selected_base" in st.session_state:
 
 # トッピング
 toppings = [
-    "レモン×2",
+    "レモン",
     "自家製クルトン",
     "レッドオニオン",
     "グリルドコーン",
